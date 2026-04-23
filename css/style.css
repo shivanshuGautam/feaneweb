@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headermain{
+  color: #0C0C0C; /* Dark text */
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  width: 930px;
+  height: 58px;
+  margin: 0.50rem 3rem 0 3rem;
+}
+
+.feane {
+    height: 38px;
+    width: 66px;
+    font-size: 10px;
+    font-family: "Dancing Script", cursive;
+}
+
+.a a{
+    margin-right: 2rem;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.home a{
+     color: #FFFF00;
+}
+
+.button button{
+    border-radius: 1rem;
+     width: 160px;
+     height: 40px;
+     margin: 0px 10px;
+     padding: 8px 30px;
+     background-color: #ffbe33;
+     color: aliceblue;
+}
+
+
