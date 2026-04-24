@@ -75,6 +75,7 @@
 {   
     width: 200px;
     padding: 40px 5px 0px 5px;
+    
 }
 
 .p1{
@@ -98,8 +99,9 @@
 }
 
 .s2 img:hover{
-    transform: scale(1.2);
+    transform: scale(0.90);
 }
+
 
 
 
