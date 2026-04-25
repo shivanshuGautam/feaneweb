@@ -112,49 +112,56 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.pizzacard img {
-    width: 155px;
-    height: 145px;
-    object-fit: cover;
+.card {
+    width: 350px;
+    height: 400px;
+    margin: 1.5rem;
 }
 
-.delicious h5 {
-    width: 280px;
-    height: 24px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
-    margin: 0px 0px 8px 0px;
+.cards {
+    display: grid;
+    flex-wrap: wrap;
 }
 
-.delicious {
-    background: black;
-    
-    width: 330px;
-    height: 228px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    padding: 25px;
 
+/* section4 */
+.container-main {
+    background: #222831;
+    padding: 90px 260px;
 }
 
-.delicious p {
-    width: 280px;
-    height: 90px;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
-    margin: 0px 0px 16px 0px;
+.imgbox img {
+  width: 500px !important;
+  height: 650px !important;
+  object-fit: cover;  
+   padding-left: 15px;
+    padding-right: 15px;
 }
 
-.img-box {
-  width: 332px;
-  height: 215px;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  background: #F1F2F3;
-  margin: -1px;
-  padding: 2rem 5rem 2rem 5rem;
+.h2{
+    width:210px;
+    height: 50px;
+    color: white;
 }
+
+.p2{
+    width:450px;
+    height: 150px;
+    color: white;
+}
+
+.a{
+    width:175px;
+    height:45px;
+    color: white;
+    background-color: #ffbe23;
+    padding: 12px 48px;
+    border-radius: 1.26rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+
+
