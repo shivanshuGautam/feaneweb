@@ -233,3 +233,20 @@ button.left {
 .leftright{
     margin: 45px;
 }
+
+/* footer */
+
+.footer{
+     background-color: #222831;
+     color: #ced4da;
+}
+
+a.abcd {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.abcdz a {
+  text-decoration: none;
+  color: #ffffff;
+}
