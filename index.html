@@ -12,6 +12,7 @@
     <title>feane</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!-- header -->
     <div
@@ -101,7 +102,9 @@
 
       <!-- second part -->
       <div class="fast-food">
-        <div class="first"><h1>Fast Food Restaurant</h1></div>
+        <div class="first">
+          <h1>Fast Food Restaurant</h1>
+        </div>
         <div class="decod">
           <p>
             Doloremque, itaque aperiam facilis rerum, commodi, temporibus
@@ -423,61 +426,187 @@
         <div class="heading-container">
           <h2>Book A Table</h2>
         </div>
-        <div class="row-book">
-          <div class="colbook">
-            <div class="from-container">
-              <div class="from-action">
-                <div class="action">
-                  <input
-                    class="input"
-                    type="text"
-                    class="form-control"
-                    placeholder="Your name"
-                  />
+        <div class="row">
+          <div class="col-5">
+            <div class="row-book">
+              <div class="colbook">
+                <div class="from-container">
+                  <div class="from-action">
+                    <div class="action">
+                      <input
+                        class="input"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div class="action">
+                      <input
+                        class="input"
+                        type="phone"
+                        class="form-control"
+                        placeholder="Phone Number"
+                      />
+                    </div>
+                    <div class="action">
+                      <input
+                        class="input"
+                        type="email"
+                        class="form-control"
+                        placeholder="your email"
+                      />
+                    </div>
+                    <div class="action">
+                      <label for="persons"></label>
+                      <select name="persons" id="persons" class="input">
+                        <option value="">How many persons?</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="action">
+                      <input
+                        type="date"
+                        placeholder="dd-mm-yy"
+                        id="date"
+                        name="date"
+                        class="input"
+                      />
+                    </div>
+                    <button class="book-now">Book Now</button>
+                  </div>
                 </div>
-                <div class="action">
-                  <input
-                    class="input"
-                    type="phone"
-                    class="form-control"
-                    placeholder="Phone Number"
-                  />
-                </div>
-                <div class="action">
-                  <input
-                    class="input"
-                    type="email"
-                    class="form-control"
-                    placeholder="your email"
-                  />
-                </div>
-                <div class="action">
-                  <label for="persons"></label>
-                  <select name="persons" id="persons" class="input">
-                    <option value="">How many persons?</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                  </select>
-                </div>
-                <div class="action">
-                  <input
-                    type="date"
-                    placeholder="dd-mm-yy"
-                    id="date"
-                    name="date"
-                    class="input"
-                  />
-                </div>
-                <button class="book-now">Book Now</button>
+                <div class="map-container"></div>
               </div>
             </div>
-            <div class="map-container"></div>
+          </div>
+          <div class="col-5">
+            <iframe src="" frameborder="0"></iframe>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- section6 -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center mb-3">
+            <h2>What Says Our Customers</h2>
+          </div>
+          <div class="col-6">
+            <div class="text-white p-3 rounded-3 lorem">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                eius ex deserunt! Illum voluptate enim cumque temporibus,
+                tempore, ipsam laudantium porro doloribus, eius amet repudiandae
+                at itaque sequi minus vero!
+              </p>
+              <h2>Mike Hamell</h2>
+              <p>Magna alique</p>
+            </div>
+            <div class="mt-4">
+              <img
+                src="./image/client1.png"
+                alt=""
+                class="rounded-circle w-25 border border-4 border-warning"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="lorem text-white p-3 rounded-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+                nesciunt aliquid quo doloremque in alias unde voluptates
+                temporibus cumque quibusdam! Sequi quis aliquam impedit sit
+                asperiores illo fugiat quam dolores.
+              </p>
+              <h2>Mike Hamell</h2>
+              <p>Magna alique</p>
+            </div>
+            <div class="mt-4">
+              <img
+                src="./image/client1.png"
+                alt=""
+                class="rounded-circle w-25 border border-4 border-warning"
+              />
+            </div>
+          </div>
+          <div
+            class="leftright d-flex justify-content-center align-items-center gap-4"
+          >
+            <button class="left rounded-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                />
+              </svg>
+            </button>
+
+            <button class="left rounded-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-compact-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="p-5 bg-black">
+      <div class="container">
+        <div class="heading"></div>
+        <div class="row">
+          <div class="col-4">
+            <div>
+              <div><h2>Contact Us</h2></div>
+              <a href="">loaction</a>
+              <a href="">685747679709</a>
+              <a href="">gmail</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div>
+              <div><h2>Contact Us</h2></div>
+              <a href="">loaction</a>
+              <a href="">685747679709</a>
+              <a href="">gmail</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div>
+              <div><h2>Contact Us</h2></div>
+              <a href="">loaction</a>
+              <a href="">685747679709</a>
+              <a href="">gmail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- script -->
     <script

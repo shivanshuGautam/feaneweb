@@ -213,3 +213,23 @@
     border-radius: 0.25rem;
     color: black;
 }
+
+
+/* section-6 */
+.lorem{
+    background-color: #222831;
+}
+.col-6{
+    padding: 25px 25px 15px;
+}
+
+button.left {
+  width: 30px;
+  color: #ced4da;
+  background-color: #ffbe23;
+  border:none
+} 
+
+.leftright{
+    margin: 45px;
+}
