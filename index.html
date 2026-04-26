@@ -194,7 +194,7 @@
     <!-- section3 -->
 
     <section>
-      <div class="container mt-5 border border-2">
+      <div class="container mt-5">
         <div class="menu text-center">
           <h2>Our Menu</h2>
         </div>
@@ -208,12 +208,8 @@
           <div><button class="b1">Fries</button></div>
         </div>
 
-        <div
-          class="d-flex justify-content-center menucard border border-1 border-danger"
-        >
-          <div
-            class="d-flex justify-content-center cards border border-1 border-dark"
-          >
+        <div class="d-flex justify-content-center menucard">
+          <div class="d-flex justify-content-center cards">
             <div class="card">
               <div class="cardone bg-black">
                 <div
@@ -395,8 +391,8 @@
 
     <!-- section-4 -->
     <section>
-      <div class="container-main mt-5 ">
-        <div class="row ">
+      <div class="container-main mt-5">
+        <div class="row">
           <div class="col1 d-flex justify-content-center align-items-center">
             <div class="imgbox">
               <img src="./image/tamatar.png" alt="" />
@@ -422,39 +418,62 @@
 
     <!-- section-5 -->
 
-    <section class="section border border-2 border-black">
-      <div class="container-book border border-2 border-danger ">
-        <div class="heading-container ">
+    <section class="section">
+      <div class="container-book">
+        <div class="heading-container">
           <h2>Book A Table</h2>
         </div>
         <div class="row-book">
-          <div class="colbook  ">
+          <div class="colbook">
             <div class="from-container">
               <div class="from-action">
-                <div>
-                  <input type="text" class="form-control" placeholder="Your name">
+                <div class="action">
+                  <input
+                    class="input"
+                    type="text"
+                    class="form-control"
+                    placeholder="Your name"
+                  />
                 </div>
-                <div>
-                   <input type="phone" class="form-control" placeholder="Phone Number">
+                <div class="action">
+                  <input
+                    class="input"
+                    type="phone"
+                    class="form-control"
+                    placeholder="Phone Number"
+                  />
                 </div>
-                <div>
-                  <input type="email" class="form-control" placeholder="your email">
+                <div class="action">
+                  <input
+                    class="input"
+                    type="email"
+                    class="form-control"
+                    placeholder="your email"
+                  />
                 </div>
-                <div>
-                  <select  class="form-control" style="display: none;">
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
+                <div class="action">
+                  <label for="persons"></label>
+                  <select name="persons" id="persons" class="input">
+                    <option value="">How many persons?</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
-                <div>date</div>
-                <div>book now</div>
+                <div class="action">
+                  <input
+                    type="date"
+                    placeholder="dd-mm-yy"
+                    id="date"
+                    name="date"
+                    class="input"
+                  />
+                </div>
+                <button class="book-now">Book Now</button>
               </div>
             </div>
-            <div class="map-container">
-              
-            </div>
+            <div class="map-container"></div>
           </div>
         </div>
       </div>
